@@ -9,7 +9,8 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="https://github.com/shalinisingh1211/portfolion/blob/main/public/Screenshot%20(70).png" alt="Avatar" />
+         <img src="/Screenshot(70).png" alt="Profile" />
+
         </div>
         <div className="content">
           <div className="social_icons">
