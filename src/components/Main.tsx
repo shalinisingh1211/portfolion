@@ -9,9 +9,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-         <img src="/Screenshot(70).png" alt="Profile" />
-
-
+        
         </div>
         <div className="content">
           <div className="social_icons">
