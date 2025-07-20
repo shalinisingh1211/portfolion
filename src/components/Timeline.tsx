@@ -31,7 +31,7 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Web Development</h3>
             <p>
-               MERN-Stack Development, RESTful API Integration, Responsive Design, Frontend Development,React
+               MERN-Stack Development, RESTful API Integration, Responsive Design, HTML,CSS,JS.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
