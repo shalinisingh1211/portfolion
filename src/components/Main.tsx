@@ -20,7 +20,7 @@ function Main() {
           </div>
           <h1>Shalini Singh</h1>
           <p>3rd Year, CSE (AI)</p>
-          <p>CGPA: 9.60</p>
+          <p>CGPA: 9.53</p>
           <div className="mobile_social_icons">
             <a href="https://github.com/shalinisingh1211" target="_blank" rel="noreferrer"><GitHubIcon /></a>
           </div>
