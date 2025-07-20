@@ -10,20 +10,19 @@ import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
 import Yogap from '../assets/images/Yogap.png';
-import imagify from '../assets/imagify';
 
 import '../assets/styles/Project.scss';
 
 function Project() {
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects-<b></b>Click on the image to visit the project<\b></h1>
+        <h1>Personal Projects-<b>Click on the image to visit the project</b></h1>
         <div className="projects-grid">
             <div className="project">
                 <h2><u>ImageGen</u></h2>
                 <h3>Tech Stack: MERN,RazorPay SDK</h3>
                 <a href="https://imagegen-mu-mauve.vercel.app/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="/assets/Imagify" download rel="noreferrer"><h2>Download ZIP (ImageGen)</h2></a>
+                <a href="https://drive.google.com/drive/folders/1I0FtbjQCYgP77UuXDyCM29Wr1wCIMToa?usp=drive_link" target="_blank" rel="noreferrer"><h2><b>Project Code(Drive Link)</b></h2></a>
                 <p>A full-stack text-to-image generator app is built using React, Node.js, Express, and MongoDB. Users
 can register, log in, and generate images based on prompts, with a credit system for usage. The app
 integrates Razorpay for payments, allowing users to purchase credits.</p>
@@ -31,9 +30,11 @@ integrates Razorpay for payments, allowing users to purchase credits.</p>
             <div className="project">
                 <h2>PosePro: AI Yoga Tracker</h2>
                 <h3>Tech Stack:HTML,CSS,Javascript,Deep Learning</h3>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={Yogap} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://shalinisingh1211.github.io/yoga-tracker-website/" target="_blank" rel="noreferrer"><img src={Yogap} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://drive.google.com/drive/folders/1_h0eq9ChGpzyWQvIKVP_5M18EHQiwyLl?usp=drive_link" target="_blank" rel="noreferrer"><h2><b>Project Code(Drive Link)</b></h2></a>
+                <p>Developed a web application utilizing Deep Learning to monitor yoga postures, achieving an
+impressive accuracy in pose detection through the integration of TensorFlow and OpenCV for
+real-time user feedback.</p>
             </div>
             <div className="project">
                 <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
