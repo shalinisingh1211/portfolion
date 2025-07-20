@@ -20,7 +20,7 @@ function Project() {
         <div className="projects-grid">
             <div className="project">
                 <h2><u>ImageGen</u></h2>
-                <h3>Tech Stack: MERN,RazorPay SDK</h3>
+                <h3>Tech Stack:React.js,Node.js,MongoDb,RazorPay SDK.(MERN)</h3>
                 <a href="https://imagegen-mu-mauve.vercel.app/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://drive.google.com/drive/folders/1I0FtbjQCYgP77UuXDyCM29Wr1wCIMToa?usp=drive_link" target="_blank" rel="noreferrer"><h2><b>Project Code(Drive Link)</b></h2></a>
                 <p>A full-stack text-to-image generator app is built using React, Node.js, Express, and MongoDB. Users
@@ -28,7 +28,7 @@ can register, log in, and generate images based on prompts, with a credit system
 integrates Razorpay for payments, allowing users to purchase credits.</p>
             </div>
             <div className="project">
-                <h2>PosePro: AI Yoga Tracker</h2>
+                <h2><u>YogaPosePerfection</u</h2>
                 <h3>Tech Stack:HTML,CSS,Javascript,Deep Learning</h3>
                 <a href="https://shalinisingh1211.github.io/yoga-tracker-website/" target="_blank" rel="noreferrer"><img src={Yogap} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://drive.google.com/drive/folders/1_h0eq9ChGpzyWQvIKVP_5M18EHQiwyLl?usp=drive_link" target="_blank" rel="noreferrer"><h2><b>Project Code(Drive Link)</b></h2></a>
@@ -37,8 +37,10 @@ impressive accuracy in pose detection through the integration of TensorFlow and 
 real-time user feedback.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
+                <h2><u>RiskRadar</u</h2>
+                <h3>Tech Stack:Python, Streamlit, SQLAlchemy, SpaCy, HuggingFace Transformers, LangChain</h3>
+                <a href="https://drive.google.com/file/d/1GGyqbEwVa_p_07pATQXB2Jd5PyvbuD7v/view?usp=drive_link" rel="noreferrer"><img src={Risk} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2><b>Project Code(Drive Link)</b></h2></h2></a>
                 <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
             </div>
             <div className="project">
