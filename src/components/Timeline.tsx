@@ -21,7 +21,7 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Artificial Intelligence & Machine Learning</h3>
             <p>
-              Model Training, Data Preprocessing, Feature Engineering,Predictive Modeling, Risk Assessment, Conversational AI
+              Model Training, Data Preprocessing, Feature Engineering.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -31,7 +31,7 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Web Development</h3>
             <p>
-               MERN-Stack Development, RESTful API Integration, Responsive Design, Frontend Development, Streamlit, React
+               MERN-Stack Development, RESTful API Integration, Responsive Design, Frontend Development,React
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -41,7 +41,7 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Database Management & Backend</h3>
             <p>
-               ChromaDB, PostgreSQL, MongoDB, Mongoose,Node.js, Express.js
+               MYSQL,MongoDB,Node.js, Express.js
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -49,9 +49,9 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Programming Languages</h3>
+            <h3 className="vertical-timeline-element-title">Programming Languages & Others</h3>
             <p>
-                 HTML, CSS, SQL, Python, Java, C, C++
+                 Python,Java,C++,OOPS,DBMS.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
