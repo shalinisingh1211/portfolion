@@ -19,11 +19,16 @@ function Project() {
         <div className="projects-grid">
             <div className="project">
                 <h2><u>ImageGen</u></h2>
+                <h3>Tech Stack: MERN,RazorPay SDK</h3>
                 <a href="https://imagegen-mu-mauve.vercel.app/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="" rel="noreferrer"><h2>Download ZIP(ImageGen)</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <p>A full-stack text-to-image generator app is built using React, Node.js, Express, and MongoDB. Users
+can register, log in, and generate images based on prompts, with a credit system for usage. The app
+integrates Razorpay for payments, allowing users to purchase credits.</p>
             </div>
             <div className="project">
+                <h2>PosePro: AI Yoga Tracker</h2>
+                <h3>Tech Stack:HTML,CSS,Javascript,Deep Learning</h3>
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
                 <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
