@@ -9,7 +9,8 @@ import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
-import yogap from '../assets/images/Yogap.png';
+import Yogap from '../assets/images/Yogap.png';
+import imagify from '../assets/imagify';
 
 import '../assets/styles/Project.scss';
 
@@ -22,7 +23,7 @@ function Project() {
                 <h2><u>ImageGen</u></h2>
                 <h3>Tech Stack: MERN,RazorPay SDK</h3>
                 <a href="https://imagegen-mu-mauve.vercel.app/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="" rel="noreferrer"><h2>Download ZIP(ImageGen)</h2></a>
+                <a href="/assets/Imagify" download rel="noreferrer"><h2>Download ZIP (ImageGen)</h2></a>
                 <p>A full-stack text-to-image generator app is built using React, Node.js, Express, and MongoDB. Users
 can register, log in, and generate images based on prompts, with a credit system for usage. The app
 integrates Razorpay for payments, allowing users to purchase credits.</p>
@@ -30,7 +31,7 @@ integrates Razorpay for payments, allowing users to purchase credits.</p>
             <div className="project">
                 <h2>PosePro: AI Yoga Tracker</h2>
                 <h3>Tech Stack:HTML,CSS,Javascript,Deep Learning</h3>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={Screenshot(101)} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={Yogap} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
                 <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
             </div>
